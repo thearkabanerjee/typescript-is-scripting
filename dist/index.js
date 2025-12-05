@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 function greet(name) {
-    return (`Hi, ${name}`);
+    return (`Hello, ${name} you must be ${name}`);
 }
-const username = 'Arka Banerjee';
-let a = greet(username);
-console.log(a);
+;
+const username = greet('Arka Banerjee');
+console.log(username);
 //# sourceMappingURL=index.js.map

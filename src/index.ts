@@ -1,7 +1,4 @@
-function greet (name : string): string { 
-    return (`Hi, ${name}`);
+function greet (name : string): string {
+    return (`Hello, ${name} you must be ${name}`);
 }
 
-const username : string = 'Arka Banerjee'
-let a : string = greet (username);
-console.log (a)
